@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+      'sans': ['Inter'],
     },
     extend: {
+      fontFamily: {
+        inter: ["Inter"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
